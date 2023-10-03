@@ -8,6 +8,7 @@ function App() {
        <h1>Wine App</h1>
       <Review/>
       <ReviewList/>
+      <PaymentForm />
     </div>
   );
 }
