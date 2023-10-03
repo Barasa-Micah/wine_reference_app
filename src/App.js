@@ -1,13 +1,13 @@
 import Review from "./component/Review";
-import ReviewsList from "./component/ReviewList";
+import ReviewList from "./component/ReviewList";
 
 
 function App() {
   return (
-    <div className> 
+    <div> 
        <h1>Wine App</h1>
       <Review/>
-      <ReviewsList/>
+      <ReviewList/>
     </div>
   );
 }
