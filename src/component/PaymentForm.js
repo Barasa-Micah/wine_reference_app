@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import mpesa from './mpesa';
+import mpesa from './Mpesa';
 
 function PaymentForm() {
   const [amount, setAmount] = useState('');
@@ -9,11 +9,9 @@ function PaymentForm() {
     e.preventDefault();
 
     try {
-
       const paymentResponse = await mpesa.stkPush({
         amount,
         phoneNumber,
-        
       });
 
       console.log('Payment response:', paymentResponse);
@@ -36,7 +34,7 @@ function PaymentForm() {
       <label>
         Phone Number:
         <input
-          type="text"
+          type="number"
           value={phoneNumber}
           onChange={(e) => setPhoneNumber(e.target.value)}
         />
