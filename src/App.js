@@ -1,6 +1,13 @@
+import React from "react";
 import Review from "./component/Review";
 import ReviewList from "./component/ReviewList";
-// import PaymentForm from "./component/PaymentForm";
+import PaymentPrompt from "./component/PaymentPrompt";
+
+
+
+function onSelectOption(option){
+  console.log('Selected option:', option);
+}
 
 function App() {
   return (
@@ -8,7 +15,7 @@ function App() {
        <h1>Wine App</h1>
       <Review/>
       <ReviewList/>
-      {/* <PaymentForm /> */}
+      <PaymentPrompt />
     </div>
   );
 }

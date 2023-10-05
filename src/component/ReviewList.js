@@ -10,23 +10,21 @@ function ReviewList() {
     { id: 5, rating: 1, reviewText: "Terrible." },
   ];
 
-  
-  
-  const limitedReviews = reviews.filter((review) => review.rating > 0 && review.rating < 6);
+  const limitedReviews = reviews.filter((review) => review.rating >= 1 && review.rating <= 5);
 
   return (
-    <div>
-      <h2>Reviews</h2>
+    <div className="review-list">
+      <h2>Customer Reviews</h2>
       <ul>
         {limitedReviews.length > 0 ? (
           limitedReviews.map((review) => (
-            <li key={review.id}>
-              <p>Rating: {review.rating}</p>
-              <p>{review.reviewText}</p>
+            <li key={review.id} className="review-item">
+              <p className="review-rating">Rating: {review.rating}</p>
+              <p className="review-text">{review.reviewText}</p>
             </li>
           ))
         ) : (
-          <li>No reviews available</li>
+          <li className="no-reviews">No reviews available</li>
         )}
       </ul>
     </div>
