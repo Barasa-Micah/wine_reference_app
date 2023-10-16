@@ -41,7 +41,7 @@ function Home() {
           <div className="wine-category-imagef">
             <img src="https://i.pinimg.com/236x/0f/0f/05/0f0f0587a2f73ebd1098b0a1ef0b3ace.jpg" alt="Vintage Wines" />
           </div>
-          <h3>Rose</h3>
+          <h3>Rosé</h3>
           <p>Rosé wines: Light, elegant, and perfect for summer sipping.</p>
         </div>
 

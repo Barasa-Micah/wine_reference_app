@@ -97,7 +97,8 @@ function Wines() {
           }}
         >
           Buy
-        </button></section>
+        </button>
+        </section>
 
 
       {/* Wine Gallery */}
