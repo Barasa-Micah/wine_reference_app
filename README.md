@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Wines App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Wines App is a web application that provides information about various wines and allows users to explore different wine types, details, and ratings. This README provides an overview of the project, installation instructions, usage guidelines, and other essential information.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- View a list of wine types.
+- Click on a wine type to see detailed information.
+- View user ratings and reviews for each wine.
+- Search for specific wine types.
+- Add your own ratings and reviews for wines.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Before you can run the Wines App, you need to have the following prerequisites:
 
-### `npm run build`
+- Node.js: Make sure you have Node.js installed on your computer. You can download it from [nodejs.org](https://nodejs.org/).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository to your local machine:
+ ```   
+   git@github.com:Barasa-Micah/wine_reference_app.git
+   ```
+Navigate to the project directory:
+```
+cd wines-app
+```
+Install the project dependencies:
+```
+npm install
+```
+## Usage
+Start the development server:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm start
 
-### `npm run eject`
+Open your web browser and visit http://localhost:3000 to access the Wines App.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Explore the wines, search for your favorites, and add your own ratings and reviews!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies Used
+- React: A JavaScript library for building user interfaces.
+- React Router: For routing within the application.
+- CSS: For structuring and styling the app.
+- RESTful API: To fetch wine data from a backend server.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contributing
+Contributions are welcome! If you'd like to contribute to the Wines App, please follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Fork the repository.
+Create a new branch for your feature or bug fix: git checkout -b feature/your-feature-name or bugfix/issue-number.
+Make your changes and commit them with descriptive messages.
+Push your changes to your fork: git push origin feature/your-feature-name.
+Create a pull request from your fork to the main repository.
+Please make sure to follow our Code of Conduct and Contribution Guidelines.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
